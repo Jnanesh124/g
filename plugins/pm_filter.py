@@ -46,7 +46,7 @@ async def give_filter(client, message):
         if settings.get('auto_ffilter', None):
             await auto_filter(client, message)
         else:
-            await asyncio.sleep(600)
+            await asyncio.sleep(60)
         if glob:
             await glob.delete()
         if manual:
@@ -1602,7 +1602,6 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("✅ HOW TO DOWNLOAD ✅", url=f"https://t.me/How_to_open_link_rockersbot/22"),
-                    InlineKeyboardButton("🔊 Lᴀɴɢᴜᴀɢᴇs 🔊", callback_data=f"select_lang#{req}")
                 ]
             )
         else:
