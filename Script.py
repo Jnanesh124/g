@@ -1,6 +1,31 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
+    START_TXT = """<b>Groups And All launguag Movies 
+    
+https://t.me/+MkmB-unfQk02YTU1
+
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬 ʲⁿᵏᵐᵒᵛⁱᵉˢ 🍿
+
+https://t.me/+4Fxg05W56SVkOTY1
+
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 @ʳᵒᶜᵏᵉʳˢᵇᵃᶜᵏᵘᵖ 🕶
+
+https://t.me/+5MMPfVCCiAU5MjU1
+
+Tamil Telugu Malayalam Movies 🎥
+
+https://t.me/+hJLWDbymVZsyOTk1
+
+Hollywood And Bollywood HD 🍿
+
+https://t.me/+sIUMbwiAsIo4Mjll
+
+18+ Baned Movies A Rated movie Only 🔞
+
+https://t.me/+GwoURlq-hr1hOTc9
+
+𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃 @ʳᵒᶜᵏᵉʳˢᵇᵃᶜᵏᵘᵖ 📸
+
+https://t.me/+EVHwFEL-OWdlMjM1</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -203,16 +228,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
-<b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
-
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Bot_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
-=========== • ✠ • ===========</b>"""
+"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
