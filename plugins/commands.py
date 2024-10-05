@@ -90,10 +90,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('🍿 OTT MOVIES CHANNEL 🍿', url=f'https://t.me/+clrCOD5j5f4wNmNl')
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                 ],[
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+MkmB-unfQk02YTU1"),
                 ],[
-                    InlineKeyboardButton('🔞 adult channel 🔞', url=f'https://t.me/+qBu1Y-tOm-1lYWY1')
-                  ]]
+                   InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -142,10 +145,13 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                    InlineKeyboardButton('🍿 OTT MOVIES CHANNEL 🍿', url=f'https://t.me/+clrCOD5j5f4wNmNl')
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                 ],[
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+MkmB-unfQk02YTU1"),
                 ],[
-                    InlineKeyboardButton('🔞 adult channel 🔞', url=f'https://t.me/+qBu1Y-tOm-1lYWY1')
-                  ]]
+                   InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                 ]]
                     )
                 )
             except FloodWait as e:
@@ -158,10 +164,13 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                    InlineKeyboardButton('🍿 OTT MOVIES CHANNEL 🍿', url=f'https://t.me/+clrCOD5j5f4wNmNl')
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                 ],[
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+MkmB-unfQk02YTU1"),
                 ],[
-                    InlineKeyboardButton('🔞 adult channel 🔞', url=f'https://t.me/+qBu1Y-tOm-1lYWY1')
-                  ]]
+                   InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                 ]]
                     )
                 )
             except Exception as e:
@@ -274,10 +283,13 @@ async def start(client, message):
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                    InlineKeyboardButton('🍿 OTT MOVIES CHANNEL 🍿', url=f'https://t.me/+clrCOD5j5f4wNmNl')
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                 ],[
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+MkmB-unfQk02YTU1"),
                 ],[
-                    InlineKeyboardButton('🔞 adult channel 🔞', url=f'https://t.me/+qBu1Y-tOm-1lYWY1')
-                  ]]
+                   InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                 ]]
                 )
             )
             filetype = msg.media
@@ -325,10 +337,13 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('🍿 OTT MOVIES CHANNEL 🍿', url=f'https://t.me/+clrCOD5j5f4wNmNl')
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                 ],[
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+                    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+MkmB-unfQk02YTU1"),
                 ],[
-                    InlineKeyboardButton('🔞 adult channel 🔞', url=f'https://t.me/+qBu1Y-tOm-1lYWY1')
-                  ]]
+                   InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                 ]]
         )
     )
                     
