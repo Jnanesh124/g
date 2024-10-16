@@ -70,7 +70,7 @@ async def start(client, message):
                 channel_num = "3ʀᴅ"
             else:
                 channel_num = str(chnl_num)+"ᴛʜ"
-            btn.append([
+            btn.extend([
                 InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=link),
             ],[
