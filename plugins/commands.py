@@ -77,13 +77,14 @@ async def start(client, message):
             else:
                 channel_num = str(chnl_num)+"ᴛʜ"
             btn.append([
-                InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
             ],[
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+RowdIa84tBg1MDI1"),
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+M5zdwhf__4JlY2Jl"),
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=link),
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+Neof3I3gyhdjZmJl"),
+            ],[
+                InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
             ])
 
         if message.command[1] != "subscribe":
